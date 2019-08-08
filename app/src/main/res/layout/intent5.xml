@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:padding="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Puzzel Huruf"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn0"
+            android:text="A"
+            android:textSize="25sp"
+            android:tag="0"
+            android:contentDescription="0"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginLeft="10sp"
+            android:text="B"
+            android:textSize="25sp"
+            android:tag="1"
+            android:contentDescription="1"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="10sp"
+            android:text="C"
+            android:textSize="25sp"
+            android:tag="2"
+            android:contentDescription="2"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginLeft="10sp"
+            android:text="D"
+            android:textSize="25sp"
+            android:tag="3"
+            android:contentDescription="3"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn4"
+            android:text="E"
+            android:textSize="25sp"
+            android:tag="4"
+            android:contentDescription="4"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginLeft="10sp"
+            android:text="F"
+            android:textSize="25sp"
+            android:tag="5"
+            android:contentDescription="5"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginLeft="10sp"
+            android:text="G"
+            android:textSize="25sp"
+            android:tag="6"
+            android:contentDescription="6"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_marginLeft="10sp"
+            android:text="H"
+            android:textSize="25sp"
+            android:tag="7"
+            android:contentDescription="7"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn8"
+            android:text="I"
+            android:textSize="25sp"
+            android:tag="8"
+            android:contentDescription="8"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginLeft="10sp"
+            android:text="J"
+            android:textSize="25sp"
+            android:tag="9"
+            android:contentDescription="9"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn10"
+            android:layout_marginLeft="10sp"
+            android:text="K"
+            android:textSize="25sp"
+            android:tag="10"
+            android:contentDescription="10"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn11"
+            android:layout_marginLeft="10sp"
+            android:text="L"
+            android:textSize="25sp"
+            android:tag="11"
+            android:contentDescription="11"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn12"
+            android:text="M"
+            android:textSize="25sp"
+            android:tag="12"
+            android:contentDescription="12"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn13"
+            android:layout_marginLeft="10sp"
+            android:text="N"
+            android:textSize="25sp"
+            android:tag="13"
+            android:contentDescription="13"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn14"
+            android:layout_marginLeft="10sp"
+            android:text="O"
+            android:textSize="25sp"
+            android:tag="14"
+            android:contentDescription="14"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+        <Button
+            android:id="@+id/btn15"
+            android:layout_marginLeft="10sp"
+            android:text="P"
+            android:textSize="25sp"
+            android:tag="15"
+            android:contentDescription="15"
+            android:textColor="@color/colorPrimary"
+            android:background="@android:color/white"
+            android:layout_width="75sp"
+            android:layout_height="75sp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
